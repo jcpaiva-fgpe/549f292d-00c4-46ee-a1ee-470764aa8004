@@ -9,7 +9,7 @@ public class LecturaTeclado {
         System.out.println("Dime la nota que me corresponde:");
         miCalificacion = sc.nextFloat();
 
-        System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);
+        System.out.print("Mi nota en PROGRAMACION es: " + miCalificacion);
     }
 
 }
