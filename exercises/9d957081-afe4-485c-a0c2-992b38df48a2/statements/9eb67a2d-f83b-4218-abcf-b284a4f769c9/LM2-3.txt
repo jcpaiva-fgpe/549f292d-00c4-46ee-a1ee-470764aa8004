@@ -1,3 +1,0 @@
-Se buscan sujetos de entre las especies raras (others).
-Deben tener los ojos azules (eyeColor blue) pero hay una limitación de altura (height), y es que no pueden llegar a 2 metros.
-¿Cuántos hay? 
