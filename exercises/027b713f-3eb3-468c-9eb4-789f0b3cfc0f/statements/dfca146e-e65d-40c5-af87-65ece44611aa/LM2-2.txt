@@ -1,0 +1,3 @@
+Cada nave intergaláctica tiene una capacidad para transportar hasta 800 kg de pasajeros.
+Calcula la cantidad mínima de naves necesarias para transportar a todos los personajes de todas las especies.
+Para medir su peso, usa el atributo “mass”.
