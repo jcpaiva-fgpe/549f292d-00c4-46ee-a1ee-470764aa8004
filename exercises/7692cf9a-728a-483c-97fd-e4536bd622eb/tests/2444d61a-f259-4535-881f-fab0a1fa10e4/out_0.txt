@@ -1,0 +1,5 @@
+ department_id | department_name | manager_id | location_id 
+---------------+-----------------+------------+-------------
+            60 | IT              |        103 |        1400
+           280 | Web Development |        103 |        1700
+(2 rows)
