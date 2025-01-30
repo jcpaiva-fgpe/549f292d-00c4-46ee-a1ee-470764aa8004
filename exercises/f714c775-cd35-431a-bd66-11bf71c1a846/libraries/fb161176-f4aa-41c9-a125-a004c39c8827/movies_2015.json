@@ -1,0 +1,1916 @@
+db.movies_2015.insertMany([{
+  "genres": [
+    "Drama",
+    "Thriller"
+  ],
+  "rated": "R",
+  "cast": [
+    "Billy Crudup",
+    "Michael Angarano",
+    "Moises Arias",
+    "Nicholas Braun"
+  ],
+  "title": "The Stanford Prison Experiment",
+  "directors": [
+    "Kyle Patrick Alvarez"
+  ],
+  "writers": [
+    "Tim Talbott"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13b1f29313caabd3719d"
+},
+{
+  "genres": [
+    "Documentary"
+  ],
+  "cast": [
+    "Clint Eastwood",
+    "Tab Hunter",
+    "Paul Newman",
+    "Natalie Wood"
+  ],
+  "title": "Tab Hunter Confidential",
+  "directors": [
+    "Jeffrey Schwarz"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13c9f29313caabd7a462"
+},
+{
+  "genres": [
+    "Comedy",
+    "Fantasy",
+    "Romance"
+  ],
+  "cast": [
+    "Mènika Balsai",
+    "Szabolcs Bede Fazekas",
+    "David Sakurai",
+    "Zoltèn Schmied"
+  ],
+  "title": "Liza, the Fox-Fairy",
+  "directors": [
+    "Kèroly Ujj Mèszèros"
+  ],
+  "writers": [
+    "Bèlint Hegedès",
+    "Kèroly Ujj Mèszèros"
+  ],
+  "year": 2015,
+  "countries": [
+    "Hungary"
+  ],
+  "type": "movie",
+  "_id": "573a13d8f29313caabda746a"
+},
+{
+  "genres": [
+    "Documentary",
+    "Biography",
+    "Drama"
+  ],
+  "cast": [
+    "Bhagavan Angulo",
+    "Govinda Angulo",
+    "Jagadisa Angulo",
+    "Krsna Angulo"
+  ],
+  "title": "The Wolfpack",
+  "directors": [
+    "Crystal Moselle"
+  ],
+  "rated": "R",
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13ddf29313caabdb386c"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "title": "Lost and Beautiful",
+  "countries": [
+    "Italy"
+  ],
+  "cast": [
+    "Claudio Casadio",
+    "Tommaso Cestrone",
+    "Elio Germano",
+    "Gesuino Pittalis"
+  ],
+  "directors": [
+    "Pietro Marcello"
+  ],
+  "writers": [
+    "Maurizio Braucci",
+    "Pietro Marcello"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13d8f29313caabda6062"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "title": "Im Sommer wohnt er unten",
+  "countries": [
+    "Germany",
+    "France"
+  ],
+  "cast": [
+    "Sebastian Frèsdorf",
+    "Godehard Giese",
+    "Karin Hanczewski",
+    "Alice Pehlivanyan"
+  ],
+  "directors": [
+    "Tom Sommerlatte"
+  ],
+  "writers": [
+    "Tom Sommerlatte"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13d8f29313caabda5981"
+},
+{
+  "genres": [
+    "Comedy",
+    "Romance",
+    "Sci-Fi"
+  ],
+  "cast": [
+    "Colin Farrell",
+    "Rachel Weisz",
+    "Lèa Seydoux",
+    "Ashley Jensen"
+  ],
+  "title": "The Lobster",
+  "directors": [
+    "Yorgos Lanthimos"
+  ],
+  "writers": [
+    "Yorgos Lanthimos",
+    "Efthymis Filippou"
+  ],
+  "year": 2015,
+  "countries": [
+    "Ireland",
+    "UK",
+    "Greece",
+    "France",
+    "Netherlands"
+  ],
+  "type": "movie",
+  "_id": "573a13ecf29313caabdd1d85"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Michael Caine",
+    "Harvey Keitel",
+    "Rachel Weisz",
+    "Paul Dano"
+  ],
+  "title": "Youth",
+  "directors": [
+    "Paolo Sorrentino"
+  ],
+  "writers": [
+    "Paolo Sorrentino"
+  ],
+  "year": 2015,
+  "countries": [
+    "Italy",
+    "France",
+    "Switzerland",
+    "UK"
+  ],
+  "type": "movie",
+  "_id": "573a13e9f29313caabdcd0d3"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Alba Rohrwacher",
+    "Emily Ferratello",
+    "Lars Eidinger",
+    "Flonja Kodheli"
+  ],
+  "title": "Sworn Virgin",
+  "directors": [
+    "Laura Bispuri"
+  ],
+  "writers": [
+    "Elvira Dones (novel)",
+    "Laura Bispuri (screenplay)",
+    "Francesca Manieri (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Italy",
+    "Switzerland",
+    "Germany",
+    "Albania",
+    "Kosovo",
+    "France"
+  ],
+  "type": "movie",
+  "_id": "573a13eff29313caabdd7dca"
+},
+{
+  "countries": [
+    "Spain"
+  ],
+  "cast": [
+    "Fernando Albizu",
+    "Iris Alpèèez",
+    "Beatriz Argèello",
+    "Antonio Bachiller"
+  ],
+  "title": "A cambio de nada",
+  "directors": [
+    "Daniel Guzmèn"
+  ],
+  "writers": [
+    "Daniel Guzmèn"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13e8f29313caabdca1d1"
+},
+{
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "cast": [
+    "Aiste Dirziute",
+    "Julija Steponaityte",
+    "Laurynas Jurgelis",
+    "Salkauskaite Inga"
+  ],
+  "title": "The Summer of Sangaile",
+  "directors": [
+    "Alantè Kavaètè"
+  ],
+  "writers": [
+    "Alantè Kavaètè",
+    "Alantè Kavaètè"
+  ],
+  "year": 2015,
+  "countries": [
+    "Lithuania",
+    "France",
+    "Netherlands"
+  ],
+  "type": "movie",
+  "_id": "573a13e5f29313caabdc3889"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Miguel Gomes",
+    "Crista Alfaiate",
+    "Carloto Cotta",
+    "Adriano Luz"
+  ],
+  "title": "Arabian Nights: Volume 1 - The Restless One",
+  "directors": [
+    "Miguel Gomes"
+  ],
+  "writers": [
+    "Telmo Churro",
+    "Miguel Gomes",
+    "Mariana Ricardo"
+  ],
+  "year": 2015,
+  "countries": [
+    "Portugal",
+    "France",
+    "Germany",
+    "Switzerland"
+  ],
+  "type": "movie",
+  "_id": "573a13e9f29313caabdcc4ae"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Margherita Buy",
+    "John Turturro",
+    "Giulia Lazzarini",
+    "Nanni Moretti"
+  ],
+  "title": "Mia Madre",
+  "directors": [
+    "Nanni Moretti"
+  ],
+  "writers": [
+    "Nanni Moretti (story)",
+    "Valia Santella (story)",
+    "Gaia Manzini (story)",
+    "Chiara Valerio (story)",
+    "Nanni Moretti (screenplay)",
+    "Francesco Piccolo (screenplay)",
+    "Valia Santella (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Italy",
+    "France"
+  ],
+  "type": "movie",
+  "_id": "573a13e5f29313caabdc42a7"
+},
+{
+  "genres": [
+    "Drama",
+    "Romance",
+    "Thriller"
+  ],
+  "cast": [
+    "Pom Klementieff",
+    "Chris Schellenger",
+    "King Orba",
+    "Alena von Stroheim"
+  ],
+  "title": "Hacker's Game",
+  "directors": [
+    "Cyril Morin"
+  ],
+  "writers": [
+    "Cyril Morin"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA",
+    "France"
+  ],
+  "type": "movie",
+  "_id": "573a13e7f29313caabdc7e7d"
+},
+{
+  "year": 2015,
+  "genres": [
+    "Comedy",
+    "Music"
+  ],
+  "rated": "PG-13",
+  "title": "Pitch Perfect 2",
+  "writers": [
+    "Kay Cannon",
+    "Mickey Rapkin (characters)"
+  ],
+  "type": "movie",
+  "countries": [
+    "USA"
+  ],
+  "cast": [
+    "Anna Kendrick",
+    "Rebel Wilson",
+    "Hailee Steinfeld",
+    "Brittany Snow"
+  ],
+  "directors": [
+    "Elizabeth Banks"
+  ],
+  "_id": "573a13e2f29313caabdbf3ff"
+},
+{
+  "genres": [
+    "Drama",
+    "Family",
+    "Sci-Fi"
+  ],
+  "cast": [
+    "Jacqueline Kim",
+    "James Urbaniak",
+    "Freya Adams",
+    "Ken Jeong"
+  ],
+  "title": "Advantageous",
+  "directors": [
+    "Jennifer Phang"
+  ],
+  "writers": [
+    "Jacqueline Kim",
+    "Jennifer Phang"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13e6f29313caabdc6361"
+},
+{
+  "genres": [
+    "Adventure"
+  ],
+  "rated": "PG-13",
+  "cast": [
+    "Shaofeng Feng",
+    "Shawn Dou",
+    "Ankhnyam Ragchaa",
+    "Yin Zhusheng"
+  ],
+  "title": "Wolf Totem",
+  "directors": [
+    "Jean-Jacques Annaud"
+  ],
+  "writers": [
+    "Jiang Rong (novel)",
+    "Jean-Jacques Annaud (screenplay)",
+    "John Collee (screenplay)",
+    "Alain Godard (screenplay)",
+    "Lu Wei (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "China",
+    "France"
+  ],
+  "type": "movie",
+  "_id": "573a13e3f29313caabdc0a0c"
+},
+{
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Romance"
+  ],
+  "rated": "PG-13",
+  "cast": [
+    "Nat Wolff",
+    "Cara Delevingne",
+    "Austin Abrams",
+    "Justice Smith"
+  ],
+  "title": "Paper Towns",
+  "directors": [
+    "Jake Schreier"
+  ],
+  "writers": [
+    "John Green (author)",
+    "Scott Neustadter (screenplay)",
+    "Michael H. Weber (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13eff29313caabdd74b8"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Horror"
+  ],
+  "cast": [
+    "Pit Bukowski",
+    "Daniel Fripan",
+    "Oona von Maydell",
+    "David Scheller"
+  ],
+  "title": "Der Bunker",
+  "directors": [
+    "Nikias Chryssos"
+  ],
+  "writers": [
+    "Nikias Chryssos"
+  ],
+  "year": 2015,
+  "countries": [
+    "Germany"
+  ],
+  "type": "movie",
+  "_id": "573a13e2f29313caabdbf358"
+},
+{
+  "genres": [
+    "Comedy",
+    "Family",
+    "Romance"
+  ],
+  "cast": [
+    "Leticia Dolera",
+    "Blanca Apilènez",
+    "Manuel Burque",
+    "Miki Esparbè"
+  ],
+  "title": "Requisitos para ser una persona normal",
+  "directors": [
+    "Leticia Dolera"
+  ],
+  "writers": [
+    "Leticia Dolera"
+  ],
+  "year": 2015,
+  "countries": [
+    "Spain"
+  ],
+  "type": "movie",
+  "_id": "573a13f0f29313caabdd9e9b"
+},
+{
+  "genres": [
+    "Biography",
+    "Drama",
+    "Music"
+  ],
+  "rated": "TV-MA",
+  "cast": [
+    "Tika Sumpter",
+    "Michael Kenneth Williams",
+    "Queen Latifah",
+    "Bryan Greenberg"
+  ],
+  "title": "Bessie",
+  "directors": [
+    "Dee Rees"
+  ],
+  "writers": [
+    "Christopher Cleveland (screenplay)",
+    "Horton Foote (story)",
+    "Bettina Gilois (screenplay)",
+    "Dee Rees (screenplay)",
+    "Dee Rees (story)"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f0f29313caabdd96b3"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "cast": [
+    "Giannis Drakopoulos",
+    "Kostas Filippoglou",
+    "Yiorgos Kendros",
+    "Panos Koronis"
+  ],
+  "title": "Chevalier",
+  "directors": [
+    "Athina Rachel Tsangari"
+  ],
+  "writers": [
+    "Efthymis Filippou",
+    "Athina Rachel Tsangari"
+  ],
+  "year": 2015,
+  "countries": [
+    "Greece"
+  ],
+  "type": "movie",
+  "_id": "573a13edf29313caabdd409f"
+},
+{
+  "genres": [
+    "Action",
+    "Horror",
+    "Thriller"
+  ],
+  "cast": [
+    "Edward Furlong",
+    "Daryl Hannah",
+    "Vinnie Jones",
+    "Robert Davi"
+  ],
+  "title": "Awaken",
+  "directors": [
+    "Mark Atkins"
+  ],
+  "writers": [
+    "Mark Atkins",
+    "Natalie Burn",
+    "Scott Martin",
+    "Ryan Priest",
+    "Michael Thomas Slifkin"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13eaf29313caabdceca3"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "rated": "PG-13",
+  "cast": [
+    "Thomas Mann",
+    "RJ Cyler",
+    "Olivia Cooke",
+    "Nick Offerman"
+  ],
+  "title": "Me and Earl and the Dying Girl",
+  "directors": [
+    "Alfonso Gomez-Rejon"
+  ],
+  "writers": [
+    "Jesse Andrews (novel)",
+    "Jesse Andrews (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13dff29313caabdb85ce"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama",
+    "Family"
+  ],
+  "cast": [
+    "Tiya Sircar",
+    "Hannah Simone",
+    "Kosha Patel",
+    "Meera Simhan"
+  ],
+  "title": "Miss India America",
+  "directors": [
+    "Ravi Kapoor"
+  ],
+  "writers": [
+    "Ravi Kapoor",
+    "Meera Simhan"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13eaf29313caabdcf935"
+},
+{
+  "genres": [
+    "Drama",
+    "Family"
+  ],
+  "rated": "PG",
+  "cast": [
+    "Dean Cain",
+    "Lee Meriwether",
+    "Christopher Atkins",
+    "Mandalynn Carlson"
+  ],
+  "title": "A Horse for Summer",
+  "directors": [
+    "Nancy Criss"
+  ],
+  "writers": [
+    "Kenneth Lemm (creator)",
+    "Kenneth Lemm (screenplay)",
+    "Kenneth Lemm (story)"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13e3f29313caabdc0714"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Gunnar Jènsson",
+    "Ilmur Kristjènsdèttir",
+    "Sigurjèn Kjartansson",
+    "Margrèt Helga Jèhannsdèttir"
+  ],
+  "title": "Virgin Mountain",
+  "directors": [
+    "Dagur Kèri"
+  ],
+  "writers": [
+    "Dagur Kèri (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Iceland",
+    "Denmark"
+  ],
+  "type": "movie",
+  "_id": "573a13dff29313caabdb92a3"
+},
+{
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "rated": "R",
+  "cast": [
+    "Bel Powley",
+    "Domino The Cat",
+    "Kristen Wiig",
+    "Alexander Skarsgèrd"
+  ],
+  "title": "The Diary of a Teenage Girl",
+  "directors": [
+    "Marielle Heller"
+  ],
+  "writers": [
+    "Phoebe Gloeckner (novel)",
+    "Marielle Heller (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13e7f29313caabdc8e20"
+},
+{
+  "genres": [
+    "Comedy"
+  ],
+  "cast": [
+    "Aidan Gillen",
+    "Lauren Kinsella",
+    "Jesse Morris",
+    "George Pistereanu"
+  ],
+  "title": "You're Ugly Too",
+  "directors": [
+    "Mark Noonan"
+  ],
+  "writers": [
+    "Mark Noonan (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Ireland"
+  ],
+  "type": "movie",
+  "_id": "573a13eff29313caabdd8b22"
+},
+{
+  "genres": [
+    "Drama",
+    "Family"
+  ],
+  "title": "Girl on the Edge",
+  "countries": [
+    "USA"
+  ],
+  "cast": [
+    "Taylor Spreitler",
+    "Peter Coyote",
+    "Gil Bellows",
+    "Amy Price-Francis"
+  ],
+  "directors": [
+    "Jay Silverman"
+  ],
+  "writers": [
+    "Joey Curtis (story)",
+    "Joey Curtis (story)",
+    "Joey Curtis",
+    "Joseph Gamache (story)",
+    "Jay Silverman (story)"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13eef29313caabdd6990"
+},
+{
+  "genres": [
+    "Fantasy",
+    "Romance"
+  ],
+  "cast": [
+    "Salma Hayek",
+    "Vincent Cassel",
+    "Toby Jones",
+    "John C. Reilly"
+  ],
+  "title": "Tale of Tales",
+  "directors": [
+    "Matteo Garrone"
+  ],
+  "writers": [
+    "Giambattista Basile (book)",
+    "Edoardo Albinati (screenplay)",
+    "Ugo Chiti (screenplay)",
+    "Matteo Garrone (screenplay)",
+    "Massimo Gaudioso (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Italy",
+    "France",
+    "UK"
+  ],
+  "type": "movie",
+  "_id": "573a13e9f29313caabdcc159"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Michael Eklund",
+    "Sara Canning",
+    "Christopher Heyerdahl",
+    "Charlie Carrick"
+  ],
+  "title": "Eadweard",
+  "directors": [
+    "Kyle Rideout"
+  ],
+  "writers": [
+    "Josh Epstein",
+    "Kyle Rideout",
+    "Josh Epstein",
+    "Kyle Rideout"
+  ],
+  "year": 2015,
+  "countries": [
+    "Canada"
+  ],
+  "type": "movie",
+  "_id": "573a13e1f29313caabdbd9b1"
+},
+{
+  "genres": [
+    "Drama",
+    "Romance"
+  ],
+  "cast": [
+    "Charlotte Rampling",
+    "Dolly Wells",
+    "Tom Courtenay",
+    "Geraldine James"
+  ],
+  "title": "45 Years",
+  "directors": [
+    "Andrew Haigh"
+  ],
+  "writers": [
+    "David Constantine (short story)",
+    "Andrew Haigh (adaptation)"
+  ],
+  "year": 2015,
+  "countries": [
+    "UK"
+  ],
+  "type": "movie",
+  "_id": "573a13edf29313caabdd49ad"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Avan Jogia",
+    "Emma Roberts",
+    "James Franco",
+    "Leven Rambin"
+  ],
+  "title": "I Am Michael",
+  "directors": [
+    "Justin Kelly"
+  ],
+  "writers": [
+    "Benoit Denizet Lewis (magazine article \"My Ex-Gay Friend\")",
+    "Justin Kelly (based on an article by)",
+    "Stacey Miller (based on an article by)"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f0f29313caabdd9a46"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Sigurèur Sigurjènsson",
+    "Theodèr Jèlèusson",
+    "Charlotte Bèving",
+    "Jon Benonysson"
+  ],
+  "title": "Rams",
+  "directors": [
+    "Grèmur Hèkonarson"
+  ],
+  "writers": [
+    "Grèmur Hèkonarson"
+  ],
+  "year": 2015,
+  "countries": [
+    "Iceland"
+  ],
+  "type": "movie",
+  "_id": "573a13e9f29313caabdcc9d6"
+},
+{
+  "genres": [
+    "Documentary"
+  ],
+  "cast": [
+    "Robert Durst",
+    "Andrew Jarecki",
+    "Gary Napoli",
+    "Debra Kay Anderson"
+  ],
+  "title": "The Jinx: The Life and Deaths of Robert Durst",
+  "rated": "TV-14",
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "series",
+  "_id": "573a13f6f29313caabde56e0"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Gènes Sensoy",
+    "Doga Zeynep Doguslu",
+    "Elit Iscan",
+    "Tugba Sunguroglu"
+  ],
+  "title": "Mustang",
+  "directors": [
+    "Deniz Gamze Ergèven"
+  ],
+  "writers": [
+    "Deniz Gamze Ergèven (screenplay)",
+    "Alice Winocour (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "France",
+    "Germany",
+    "Turkey",
+    "Qatar"
+  ],
+  "type": "movie",
+  "_id": "573a13f3f29313caabddfa77"
+},
+{
+  "genres": [
+    "Drama",
+    "Fantasy",
+    "Sci-Fi"
+  ],
+  "cast": [
+    "Casey Heflin",
+    "Glenn Payne",
+    "Dunlap Peeples IV",
+    "Zack Ratkovich"
+  ],
+  "title": "OzLand",
+  "directors": [
+    "Michael Williams"
+  ],
+  "writers": [
+    "Michael Williams"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f3f29313caabddf32e"
+},
+{
+  "genres": [
+    "Documentary",
+    "News"
+  ],
+  "cast": [
+    "John Barrett",
+    "Andreas M. Antonopoulos",
+    "Jeffrey A. Tucker",
+    "Matt Miller"
+  ],
+  "title": "Bitcoin: The End of Money as We Know It",
+  "directors": [
+    "Torsten Hoffmann",
+    "Michael Watchulonis"
+  ],
+  "writers": [
+    "Torsten Hoffmann"
+  ],
+  "year": 2015,
+  "countries": [
+    "Australia",
+    "Canada",
+    "USA",
+    "UK"
+  ],
+  "type": "movie",
+  "_id": "573a13f9f29313caabdeb320"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Toni Rakkaen",
+    "Ingkarat Damrongsakkul",
+    "Thira Chutikul",
+    "Arthur Navarat"
+  ],
+  "title": "How to Win at Checkers (Every Time)",
+  "directors": [
+    "Josh Kim"
+  ],
+  "writers": [
+    "Josh Kim (screenplay)",
+    "Rattawut Lapcharoensap (book)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Thailand",
+    "USA",
+    "Indonesia"
+  ],
+  "type": "movie",
+  "_id": "573a13f7f29313caabde67ea"
+},
+{
+  "countries": [
+    "Germany",
+    "Kosovo",
+    "Republic of Macedonia",
+    "France"
+  ],
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Val Maloku",
+    "Astrit Kabashi",
+    "Adriana Matoshi",
+    "Enver Petrovci"
+  ],
+  "title": "Babai",
+  "directors": [
+    "Visar Morina"
+  ],
+  "writers": [
+    "Visar Morina"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13faf29313caabdec74f"
+},
+{
+  "genres": [
+    "Documentary",
+    "Biography",
+    "Comedy"
+  ],
+  "cast": [
+    "Margaret Cho",
+    "Lenny Clarke",
+    "Randy Credico",
+    "Barry Crimmins"
+  ],
+  "title": "Call Me Lucky",
+  "directors": [
+    "Bobcat Goldthwait"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f3f29313caabdde810"
+},
+{
+  "genres": [
+    "Drama",
+    "Family"
+  ],
+  "cast": [
+    "Olivia Grace Applegate",
+    "Bryan Casserly",
+    "Alex Dobrenko",
+    "Chris Doubek"
+  ],
+  "title": "Krisha",
+  "directors": [
+    "Trey Edward Shults"
+  ],
+  "writers": [
+    "Trey Edward Shults"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f6f29313caabde4f51"
+},
+{
+  "genres": [
+    "Documentary",
+    "Biography",
+    "Music"
+  ],
+  "rated": "TV-MA",
+  "cast": [
+    "Aaron Burckhard",
+    "Chad Channing",
+    "Don Cobain",
+    "Jenny Cobain"
+  ],
+  "title": "Cobain: Montage of Heck",
+  "directors": [
+    "Brett Morgen"
+  ],
+  "writers": [
+    "Brett Morgen"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f6f29313caabde47ad"
+},
+{
+  "genres": [
+    "Crime",
+    "Drama",
+    "Mystery"
+  ],
+  "cast": [
+    "Elaine Jin",
+    "Aaron Kwok",
+    "Jessie Li",
+    "Michael Ning"
+  ],
+  "title": "Port of Call",
+  "directors": [
+    "Philip Yung"
+  ],
+  "writers": [
+    "Philip Yung"
+  ],
+  "year": 2015,
+  "countries": [
+    "Hong Kong"
+  ],
+  "type": "movie",
+  "_id": "573a13f7f29313caabde71b9"
+},
+{
+  "genres": [
+    "Documentary",
+    "Action",
+    "Drama"
+  ],
+  "cast": [
+    "Robert Hetrick"
+  ],
+  "title": "Cartel Land",
+  "directors": [
+    "Matthew Heineman"
+  ],
+  "rated": "R",
+  "year": 2015,
+  "countries": [
+    "Mexico",
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f5f29313caabde2e80"
+},
+{
+  "genres": [
+    "Drama",
+    "Mystery",
+    "Thriller"
+  ],
+  "cast": [
+    "MacLeod Andrews",
+    "Evan Dumouchel",
+    "Margaret Ying Drake",
+    "Mick Casale"
+  ],
+  "title": "They Look Like People",
+  "directors": [
+    "Perry Blackshear"
+  ],
+  "writers": [
+    "Perry Blackshear"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f4f29313caabde29cd"
+},
+{
+  "genres": [
+    "Drama",
+    "Thriller"
+  ],
+  "cast": [
+    "Jenny Lampa",
+    "Lukas Loughran",
+    "Hanna Sjègren",
+    "Richard Ulfsèter"
+  ],
+  "title": "The Break-In",
+  "directors": [
+    "Marcus Ovnell"
+  ],
+  "writers": [
+    "Marcus Ovnell"
+  ],
+  "year": 2015,
+  "countries": [
+    "Sweden"
+  ],
+  "type": "movie",
+  "_id": "573a13f7f29313caabde62c9"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Hillary Berg",
+    "Beck DeRobertis",
+    "Paul Dickinson",
+    "Alex Karpovsky"
+  ],
+  "title": "Tired Moonlight",
+  "directors": [
+    "Britni West"
+  ],
+  "writers": [
+    "Britni West"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f5f29313caabde3033"
+},
+{
+  "genres": [
+    "Adventure",
+    "Comedy",
+    "Drama"
+  ],
+  "cast": [
+    "Teodor Corban",
+    "Mihai Comanoiu",
+    "Toma Cuzin",
+    "Alexandru Dabija"
+  ],
+  "title": "Aferim!",
+  "directors": [
+    "Radu Jude"
+  ],
+  "writers": [
+    "Radu Jude (screenplay)",
+    "Florin Lazarescu"
+  ],
+  "year": 2015,
+  "countries": [
+    "Romania",
+    "Bulgaria",
+    "Czech Republic",
+    "France"
+  ],
+  "type": "movie",
+  "_id": "573a13f7f29313caabde68f4"
+},
+{
+  "genres": [
+    "Comedy"
+  ],
+  "cast": [
+    "Claudio Amendola",
+    "Luca Argentero",
+    "Carlo Buccirosso",
+    "Gualtiero Burzi"
+  ],
+  "title": "Noi e la Giulia",
+  "directors": [
+    "Edoardo Leo"
+  ],
+  "writers": [
+    "Fabio Bartolomei (book)",
+    "Marco Bonini (screenplay)",
+    "Edoardo Leo (story)"
+  ],
+  "year": 2015,
+  "countries": [
+    "Italy"
+  ],
+  "type": "movie",
+  "_id": "573a13f1f29313caabddc7ab"
+},
+{
+  "countries": [
+    "Israel"
+  ],
+  "cast": [
+    "Aharon Traitel",
+    "Khalifa Natour",
+    "Riki Blich",
+    "Gur Sheinberg"
+  ],
+  "title": "Tikkun",
+  "directors": [
+    "Avishai Sivan"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13f8f29313caabde8161"
+},
+{
+  "genres": [
+    "Documentary"
+  ],
+  "title": "The Pearl Button",
+  "countries": [
+    "Chile",
+    "France",
+    "Spain"
+  ],
+  "directors": [
+    "Patricio Guzmèn"
+  ],
+  "writers": [
+    "Patricio Guzmèn (concept)"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13f7f29313caabde697c"
+},
+{
+  "genres": [
+    "Documentary",
+    "News"
+  ],
+  "title": "Peace Officer",
+  "countries": [
+    "USA"
+  ],
+  "directors": [
+    "Brad Barber",
+    "Scott Christopherson"
+  ],
+  "writers": [
+    "Brad Barber",
+    "Scott Christopherson",
+    "David Lawrence",
+    "Renny McCauley"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13f4f29313caabde230e"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "rated": "R",
+  "cast": [
+    "Gèza Rèhrig",
+    "Levente Molnèr",
+    "Urs Rechn",
+    "Todd Charmont"
+  ],
+  "title": "Son of Saul",
+  "directors": [
+    "Lèszlè Nemes"
+  ],
+  "writers": [
+    "Lèszlè Nemes",
+    "Clara Royer"
+  ],
+  "year": 2015,
+  "countries": [
+    "Hungary"
+  ],
+  "type": "movie",
+  "_id": "573a13f1f29313caabddc788"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Christopher Abbott",
+    "Cynthia Nixon",
+    "Scott Mescudi",
+    "Ron Livingston"
+  ],
+  "title": "James White",
+  "directors": [
+    "Josh Mond"
+  ],
+  "rated": "R",
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f6f29313caabde545a"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "cast": [
+    "Parker Young",
+    "Evan Todd",
+    "Jon Gabrus",
+    "Chord Overstreet"
+  ],
+  "title": "Fourth Man Out",
+  "directors": [
+    "Andrew Nackman"
+  ],
+  "writers": [
+    "Aaron Dancik"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f3f29313caabddff60"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Tihana Lazovic",
+    "Goran Markovic",
+    "Nives Ivankovic",
+    "Dado Cosic"
+  ],
+  "title": "The High Sun",
+  "directors": [
+    "Dalibor Matanic"
+  ],
+  "writers": [
+    "Dalibor Matanic"
+  ],
+  "year": 2015,
+  "countries": [
+    "Croatia",
+    "Serbia",
+    "Slovenia"
+  ],
+  "type": "movie",
+  "_id": "573a13f9f29313caabdea63e"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "rated": "R",
+  "cast": [
+    "Regina Casè",
+    "Michel Joelsas",
+    "Camila Mèrdila",
+    "Karine Teles"
+  ],
+  "title": "The Second Mother",
+  "directors": [
+    "Anna Muylaert"
+  ],
+  "writers": [
+    "Anna Muylaert"
+  ],
+  "year": 2015,
+  "countries": [
+    "Brazil"
+  ],
+  "type": "movie",
+  "_id": "573a13f0f29313caabdda839"
+},
+{
+  "genres": [
+    "Documentary",
+    "Crime",
+    "Drama"
+  ],
+  "cast": [
+    "Leland Brunson",
+    "Angela B. Corey",
+    "Ron Davis",
+    "John Guy"
+  ],
+  "title": "3 1/2 Minutes, Ten Bullets",
+  "directors": [
+    "Marc Silver"
+  ],
+  "writers": [
+    "Marc Silver"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f5f29313caabde2e85"
+},
+{
+  "genres": [
+    "Comedy",
+    "Drama"
+  ],
+  "rated": "R",
+  "cast": [
+    "Kitana Kiki Rodriguez",
+    "Mya Taylor",
+    "Karren Karagulian",
+    "Mickey O'Hagan"
+  ],
+  "title": "Tangerine",
+  "directors": [
+    "Sean Baker"
+  ],
+  "writers": [
+    "Sean Baker",
+    "Chris Bergoch"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f2f29313caabddcd40"
+},
+{
+  "genres": [
+    "Documentary",
+    "History",
+    "News"
+  ],
+  "title": "The Russian Woodpecker",
+  "countries": [
+    "Ukraine",
+    "UK",
+    "USA"
+  ],
+  "directors": [
+    "Chad Gracia"
+  ],
+  "writers": [
+    "Chad Gracia"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13f4f29313caabde2421"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Hannah Murray",
+    "Josh O'Connor",
+    "Adrian Rawlins",
+    "Patricia Potter"
+  ],
+  "title": "Bridgend",
+  "directors": [
+    "Jeppe Rènde"
+  ],
+  "writers": [
+    "Jeppe Rènde",
+    "Torben Bech",
+    "Peter Asmussen"
+  ],
+  "year": 2015,
+  "countries": [
+    "Denmark"
+  ],
+  "type": "movie",
+  "_id": "573a13f5f29313caabde3bfe"
+},
+{
+  "genres": [
+    "Documentary",
+    "Biography",
+    "Family"
+  ],
+  "rated": "PG",
+  "cast": [
+    "Teresa Clovicko",
+    "Audrey Copper",
+    "Katie Cotton",
+    "Ama Daetz"
+  ],
+  "title": "Batkid Begins",
+  "directors": [
+    "Dana Nachman"
+  ],
+  "writers": [
+    "Kurt Kuenne",
+    "Dana Nachman"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f2f29313caabdde2fc"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Josè Felipe Cèrdenas",
+    "Haimer Leal",
+    "Edison Raigosa",
+    "Hilda Ruiz"
+  ],
+  "title": "Land and Shade",
+  "directors": [
+    "Cèsar Augusto Acevedo"
+  ],
+  "writers": [
+    "Cèsar Augusto Acevedo"
+  ],
+  "year": 2015,
+  "countries": [
+    "Colombia",
+    "France",
+    "Netherlands",
+    "Chile",
+    "Brazil"
+  ],
+  "type": "movie",
+  "_id": "573a13f9f29313caabdeb527"
+},
+{
+  "genres": [
+    "Animation",
+    "Short",
+    "Comedy"
+  ],
+  "cast": [
+    "Winona Mae",
+    "Julia Pott"
+  ],
+  "title": "World of Tomorrow",
+  "directors": [
+    "Don Hertzfeldt"
+  ],
+  "writers": [
+    "Don Hertzfeldt"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f5f29313caabde398f"
+},
+{
+  "genres": [
+    "Documentary",
+    "Western"
+  ],
+  "cast": [
+    "Chad Foster",
+    "Brylyn Wall",
+    "Martèn Wall"
+  ],
+  "title": "Western",
+  "directors": [
+    "Bill Ross IV",
+    "Turner Ross"
+  ],
+  "year": 2015,
+  "countries": [
+    "Mexico",
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f5f29313caabde43f8"
+},
+{
+  "genres": [
+    "Drama",
+    "Family"
+  ],
+  "cast": [
+    "Rebecka Josephson",
+    "Amy Deasismont",
+    "Henrik Norlèn",
+    "Annika Hallin"
+  ],
+  "title": "My Skinny Sister",
+  "directors": [
+    "Sanna Lenken"
+  ],
+  "writers": [
+    "Sanna Lenken"
+  ],
+  "year": 2015,
+  "countries": [
+    "Sweden",
+    "Germany"
+  ],
+  "type": "movie",
+  "_id": "573a13f4f29313caabde2713"
+},
+{
+  "cast": [
+    "Marquim do Tropa",
+    "Dilmar Durèes",
+    "Gleide Firmino",
+    "Dj Jamaika"
+  ],
+  "title": "White Out, Black In",
+  "directors": [
+    "Adirley Queirès"
+  ],
+  "year": 2015,
+  "countries": [
+    "Brazil"
+  ],
+  "type": "movie",
+  "_id": "573a13f6f29313caabde5404"
+},
+{
+  "genres": [
+    "Horror",
+    "Thriller"
+  ],
+  "cast": [
+    "Imogen Poots",
+    "Patrick Stewart",
+    "Alia Shawkat",
+    "Anton Yelchin"
+  ],
+  "title": "Green Room",
+  "directors": [
+    "Jeremy Saulnier"
+  ],
+  "writers": [
+    "Jeremy Saulnier"
+  ],
+  "year": 2015,
+  "countries": [
+    "USA"
+  ],
+  "type": "movie",
+  "_id": "573a13f4f29313caabde1d9a"
+},
+{
+  "genres": [
+    "Documentary",
+    "Thriller"
+  ],
+  "title": "Welcome to Leith",
+  "countries": [
+    "USA"
+  ],
+  "directors": [
+    "Michael Beach Nichols",
+    "Christopher K. Walker"
+  ],
+  "writers": [
+    "Michael Beach Nichols",
+    "Christopher K. Walker"
+  ],
+  "year": 2015,
+  "type": "movie",
+  "_id": "573a13f3f29313caabddf9c7"
+},
+{
+  "genres": [
+    "Comedy"
+  ],
+  "cast": [
+    "Pili Groyne",
+    "Benoèt Poelvoorde",
+    "Catherine Deneuve",
+    "Franèois Damiens"
+  ],
+  "title": "The Brand New Testament",
+  "directors": [
+    "Jaco Van Dormael"
+  ],
+  "writers": [
+    "Thomas Gunzig",
+    "Jaco Van Dormael"
+  ],
+  "year": 2015,
+  "countries": [
+    "Belgium",
+    "France",
+    "Luxembourg"
+  ],
+  "type": "movie",
+  "_id": "573a13f1f29313caabddc008"
+},
+{
+  "genres": [
+    "Drama"
+  ],
+  "cast": [
+    "Vincent Lindon",
+    "Karine de Mirbeck",
+    "Matthieu Schaller",
+    "Yves Ory"
+  ],
+  "title": "The Measure of a Man",
+  "directors": [
+    "Stèphane Brizè"
+  ],
+  "writers": [
+    "Stèphane Brizè (screenplay)",
+    "Olivier Gorce (screenplay)"
+  ],
+  "year": 2015,
+  "countries": [
+    "France"
+  ],
+  "type": "movie",
+  "_id": "573a13f7f29313caabde74d2"
+},
+{
+  "genres": [
+    "Crime",
+    "Drama",
+    "Thriller"
+  ],
+  "cast": [
+    "Laia Costa",
+    "Frederick Lau",
+    "Franz Rogowski",
+    "Burak Yigit"
+  ],
+  "title": "Victoria",
+  "directors": [
+    "Sebastian Schipper"
+  ],
+  "writers": [
+    "Olivia Neergaard-Holm",
+    "Sebastian Schipper",
+    "Eike Frederik Schulz"
+  ],
+  "year": 2015,
+  "countries": [
+    "Germany"
+  ],
+  "type": "movie",
+  "_id": "573a13f6f29313caabde4709"
+}])
