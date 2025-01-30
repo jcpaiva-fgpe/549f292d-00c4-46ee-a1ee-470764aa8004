@@ -1,0 +1,1 @@
+sum(/c3starwars/specie/character/@mass)
