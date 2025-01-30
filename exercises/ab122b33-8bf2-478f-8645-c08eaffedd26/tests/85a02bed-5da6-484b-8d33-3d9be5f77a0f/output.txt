@@ -1,0 +1,9 @@
+carretera|causa                 |fechahora              |cod_nivel|pk_inicial|pk_final|poblacion                |cod_provincia|cod_sentido|
+---------+----------------------+-----------------------+---------+----------+--------+-------------------------+-------------+-----------+
+A-70     |RETENCIÓN / CONGESTIÓN|2023-02-21 19:03:00.000|        2|     33.00|   28.00|MAITINO                  |            3|          3|
+CV-700   |OBRAS EN GENERAL      |2022-06-30 17:04:00.000|        1|     58.80|   60.90|PEGO                     |            3|          2|
+CV-700   |OBRAS EN GENERAL      |2022-06-30 17:04:00.000|        1|     60.90|   58.80|PEGO                     |            3|          3|
+CV-755   |OBRAS EN GENERAL      |2022-04-28 08:48:00.000|        1|      4.00|    4.10|CASTELL DE GUADALEST (EL)|            3|          2|
+CV-755   |OBRAS EN GENERAL      |2022-04-28 08:48:00.000|        1|      4.10|    4.00|CASTELL DE GUADALEST (EL)|            3|          3|
+CV-70    |OBRAS EN GENERAL      |2022-07-01 09:09:00.000|        1|     16.00|   14.00|ALCOLEJA                 |            3|          3|
+CV-70    |OBRAS EN GENERAL      |2022-07-01 09:09:00.000|        1|     14.00|   16.00|ALCOLEJA                 |            3|          2|
