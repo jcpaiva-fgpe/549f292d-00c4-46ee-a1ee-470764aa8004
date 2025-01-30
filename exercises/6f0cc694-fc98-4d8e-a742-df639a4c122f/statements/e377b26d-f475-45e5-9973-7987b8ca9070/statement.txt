@@ -1,4 +1,3 @@
-<!DOCTYPE html><html><head><meta charset='utf-8'><meta http-equiv='X-UA-Compatible' content='IE=edge'><title>Page Title</title><meta name='viewport' content='width=device-width, initial-scale=1'><link rel='stylesheet' type='text/css' media='screen' href='main.css'><script src='main.js'></script></head><body><p>Existen varias formas de leer información proveniente del usuario. De entre <a href="https://javadesdecero.es/io/maneras-lectura-datos-java/" target="_blank">todas ellas</a>, nosotros usaremos la&nbsp;<strong>clase <code>Scanner</code> de Java</strong>&nbsp;para leer de teclado.&nbsp;</p>
 
 <ul>
 	<li>Dicha clase se encuentra en el paquete <code>java.util.Scanner</code> de las librerías de Java, el cual tendré que importar a mi programa para poder utilizarlo. Para ello, antes de la declaración de la clase, pondremos el código siguiente:</li>
@@ -68,4 +67,28 @@ public class LecturaTeclado {
 
 <p>Prueba a ejecutar el código anterior, permitiendo que, en lugar de una nota con valor entero, se pueda introducir una calificación con decimales.</p>
 
-<p><small><em><strong>Nota:</strong></em> Ten en cuenta que los decimales que introduce el usuario deben ir separados por la coma decimal y no por el .</small></p></body></html>
+<p><small><em><strong>Nota:</strong></em> Ten en cuenta que los decimales que introduce el usuario deben ir separados por la coma decimal y no por el .</small></p>
+<h3><u>Solución del ejercicio (solo para pruebas)</u></h3>
+<h4><strong>lenguaje:</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>Java</code></pre>
+</blockquote>
+<h4><strong>solución</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>import java.util.Scanner;
+
+public class LecturaTeclado {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float miCalificacion;
+        
+        System.out.println("Dime la nota que me corresponde:");
+        miCalificacion = sc.nextFloat();
+
+        System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);
+    }
+
+}
+</code></pre>
+</blockquote>
