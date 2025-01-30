@@ -5,3 +5,55 @@
 <p>Crea una aplicaci&oacute;n que calcule el resultado de la operaci&oacute;n indicada por argumentos que se han insertado con la notaci&oacute;n polaca inversa.</p>
 
 <p>Los operadores v&aacute;lidos son: + (suma), - (resta), x (multiplicaci&oacute;n) y : (divisi&oacute;n)</p>
+
+<h3><u>Solución del ejercicio (solo para pruebas)</u></h3>
+<h4><strong>lenguaje:</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>PHP</code></pre>
+</blockquote>
+<h4><strong>solución</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code><?php
+$datos = explode(" ", trim(fgets(STDIN)));
+
+for($i = 0; $i < count($datos); $i++) $argv[$i + 1] = $datos[$i];
+$argc = count($datos) + 1;
+
+$pila = 0;
+for ($i = 1; $i < $argc; $i++) {
+    if(is_numeric($argv[$i])) {
+       $argv[++$pila] = $argv[$i];
+    } elseif($pila > 1) {
+        $pila--;
+        switch($argv[$i]) {
+            case '+':
+                $argv[$pila] = $argv[$pila] + $argv[$pila+1];
+                break;
+            case '-':
+                $argv[$pila] = $argv[$pila] - $argv[$pila+1];
+                break;
+            case 'x':
+                $argv[$pila] = $argv[$pila] * $argv[$pila+1];
+                break;
+            case ':':
+                $argv[$pila] = $argv[$pila] / $argv[$pila+1];
+                break;
+        }
+
+    } else {
+        $msg = "(Error) El usuario no ha introducido suficientes argumentos en la expresión.";
+        break;
+    }
+}
+
+if(!isset($msg)) {
+    if($pila == 1) {
+        $msg = "El resultado es: " . $argv[$pila];
+    } else {
+        $msg = "(Error) El usuario ha introducido demasiados elementos.";
+    }
+}
+?>
+<p><?php echo $msg ?></p>
+</code></pre>
+</blockquote>
