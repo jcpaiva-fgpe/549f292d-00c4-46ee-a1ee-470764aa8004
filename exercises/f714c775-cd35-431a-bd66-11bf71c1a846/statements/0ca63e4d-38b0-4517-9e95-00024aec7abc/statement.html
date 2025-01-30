@@ -7,3 +7,12 @@
 <p dir="auto">En la consulta anterior, <code>hp</code> es la <strong>clave</strong> y <code>255</code> es el <strong>valor</strong>.
 <h3>Ejercicio</h3>
 <p>Cuenta los documentos existentes en la colección <strong><code>movies_2015</code></strong> que tienen un <code>rated</code> de <code>"PG-13"</code></p>
+<h3><u>Solución del ejercicio (solo para pruebas)</u></h3>
+<h4><strong>lenguaje:</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>MongoDB</code></pre>
+</blockquote>
+<h4><strong>solución</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>db.movies_2015.countDocuments({"rated": "PG-13"})</code></pre>
+</blockquote>
