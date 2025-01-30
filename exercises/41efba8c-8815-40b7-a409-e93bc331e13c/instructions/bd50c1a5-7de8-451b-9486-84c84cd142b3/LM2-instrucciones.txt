@@ -1,0 +1,1 @@
+Este código se consigue mediante una consulta XPath sobre un fichero XML cuya estructura puedes ver en la plataforma.
