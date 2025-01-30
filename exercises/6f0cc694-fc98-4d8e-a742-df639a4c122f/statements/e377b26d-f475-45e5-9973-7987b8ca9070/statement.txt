@@ -49,23 +49,19 @@
 <p>En el&nbsp;ejemplo que hemos realizado anteriormente, en el que se imprimía en pantalla <em>"Mi nota en PROGRAMACION es: 10"</em>, el valor de esa nota se incluía dentro del código. Si quisiéramos que fuera el usuario que está ejecutando la aplicación el que introdujera el valor que le corresponde a la nota, lo haríamos con el siguiente código:</p>
 
 <blockquote>
-<p><code>package lecturateclado;</code></p>
 
-<p><code>import java.util.Scanner;</code></p>
-
-<p><code>public class LecturaTeclado {</code></p>
-
-<p><code>&nbsp; &nbsp; public static void main(String[] args) {<br>
-&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);<br>
-&nbsp; &nbsp; &nbsp; &nbsp; int miCalificacion;<br>
-&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
-&nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Dime la nota que me corresponde:");<br>
-&nbsp; &nbsp; &nbsp; &nbsp; miCalificacion = sc.nextInt();</code></p>
-
-<p><code>&nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);<br>
-&nbsp; &nbsp; }</code></p>
-
-<p><code>}</code></p>
+<pre><code>import java.util.Scanner;
+public class LecturaTeclado {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int miCalificacion;
+        
+        System.out.println("Dime la nota que me corresponde:");
+        miCalificacion = sc.nextInt();
+        
+        System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);
+    }
+}</code></pre>
 </blockquote>
 
 <h3>&nbsp;Ejercicio:</h3>
