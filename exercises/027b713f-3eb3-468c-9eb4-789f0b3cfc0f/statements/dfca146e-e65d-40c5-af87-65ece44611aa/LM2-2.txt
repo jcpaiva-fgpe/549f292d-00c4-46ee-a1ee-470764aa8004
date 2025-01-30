@@ -1,2 +1,0 @@
-<p>Dado un documento XML que contiene informaci&oacute;n sobre libros, 
- escriba una expresi&oacute;n XPath que obtenga el t&iacute;tulo del libro con el ISBN &quot;978-0-596-52068-7&quot;.</p>
