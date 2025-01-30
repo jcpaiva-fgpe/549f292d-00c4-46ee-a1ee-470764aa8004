@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<c3starwars>
+  <specie name="humans">
+    <character id="1" name="Luke Skywalker" height="1.72" mass="73" gender="male" homeworld="tatooine" born="-19" bornLocation="polis massa" died="34" diedLocation="ahch-to" hairColor="blond" eyeColor="blue" skinColor="light"/>
+    <character id="4" name="Darth Vader" height="2.03" mass="120" gender="male" homeworld="tatooine" born="-41" died="4" diedLocation="death star ii, endor system" hairColor="blond" eyeColor="blue, yellow (dark side)" skinColor="light, later pale"/>
+    <character id="5" name="Leia Organa" height="1.5" mass="51" gender="female" homeworld="alderaan" born="-19" bornLocation="polis massa (2 days after empire day)" hairColor="brown, later graying" eyeColor="brown" skinColor="light"/>
+    <character id="6" name="Owen Lars" height="1.7" mass="120" gender="male" homeworld="tatooine" died="0" diedLocation="tatooine" hairColor="brown, later gray" eyeColor="blue" skinColor="light" born="-52"/>
+    <character id="7" name="Beru Whitesun lars" height="1.65" mass="75" gender="female" homeworld="tatooine" died="0" diedLocation="tatooine" hairColor="brown" eyeColor="blue" skinColor="light" born="-47"/>
+    <character id="9" name="Biggs Darklighter" height="1.83" mass="84" gender="male" homeworld="tatooine" died="0" diedLocation="yavin system" hairColor="black" eyeColor="hazel" skinColor="light" born="-24"/>
+    <character id="10" name="Obi-Wan Kenobi" height="1.82" mass="81" gender="male" homeworld="stewjon" born="-57" died="0" diedLocation="death star, alderaan system" hairColor="light brown, later white" eyeColor="gray-blue" skinColor="light"/>
+    <character id="11" name="Anakin Skywalker" height="2.03" mass="120" gender="male" homeworld="tatooine" born="-41" died="4" diedLocation="death star ii, endor system" hairColor="blond" eyeColor="blue, yellow (dark side)" skinColor="light, later pale"/>
+    <character id="12" name="Wilhuff Tarkin" height="1.82" gender="male" homeworld="eriadu" born="-64" died="0" diedLocation=" death star, yavin system" hairColor="auburn, later gray" eyeColor="gray-blue" skinColor="light"/>
+    <character id="14" name="Han Solo" height="1.8" mass="80" gender="male" homeworld="corellia" born="-29" bornLocation="corellia" died="34" diedLocation="starkiller base" hairColor="brown, later gray" eyeColor="hazel" skinColor="light"/>
+    <character id="18" name="Wedge Antilles" height="1.7" mass="77" gender="male" homeworld="corellia" hairColor="brown" eyeColor="brown" skinColor="light" born="-21"/>
+    <character id="19" name="Jek Tono Porkins" height="1.8" mass="110" gender="male" homeworld="bestine" died="0" diedLocation="yavin system" skinColor="light" hairColor="brown" eyeColor="blue"/>
+    <character id="21" name="Palpatine" height="1.78" mass="75" gender="male" homeworld="naboo" born="-82" bornLocation="naboo" died="4" diedLocation="death star ii (original body)" hairColor="red, later gray and white" eyeColor="blue; yellow/red (dark side)" skinColor="fair, later pale"/>
+    <character id="22" name="Boba Fett" height="1.83" mass="78" gender="male" homeworld="kamino" born="Shortly after the Battle of Naboo" hairColor="black" eyeColor="brown" skinColor="tan"/>
+    <character id="25" name="Lando Calrissian" height="1.77" mass="79" gender="male" homeworld="socorro" born="-30" hairColor="black" eyeColor="brown" skinColor="dark"/>
+    <character id="26" name="Lobot" height="1.75" mass="79" gender="male" homeworld="bespin" eyeColor="blue" skinColor="light" born="-37"/>
+    <character id="28" name="Mon Mothma" height="1.73" gender="female" homeworld="chandrila" born="-46" hairColor="auburn" eyeColor="pale blue-green" skinColor="light"/>
+    <character id="29" name="Arvel Crynyd" gender="male" died="4" diedLocation="executor" eyeColor="brown" skinColor="light" hairColor="brown"/>
+    <character id="32" name="Qui-Gon Jinn" height="1.93" mass="89" gender="male" homeworld="coruscant" died="-32" diedLocation="naboo" hairColor="brown" eyeColor="blue" skinColor="light" born="-92"/>
+    <character id="34" name="Finis Valorum" height="1.7" gender="male" homeworld="coruscant" hairColor="white" eyeColor="blue" skinColor="fair" born="-91"/>
+    <character id="35" name="Padmé Amidala" height="1.65" mass="45" gender="female" homeworld="naboo" born="-46" bornLocation="naboo" died="-19" diedLocation="polis massa (2 days after empire day)" hairColor="brown" eyeColor="light brown" skinColor="light"/>
+    <character id="39" name="Ric Olié" height="1.83" gender="male" homeworld="naboo" hairColor="light brown" eyeColor="bluish green" skinColor="fair"/>
+    <character id="42" name="Quarsh Panaka" height="1.83" gender="male" homeworld="naboo" died="-3" diedLocation="onoam" hairColor="black, later with flecks of gray" eyeColor="brown" skinColor="dark" born="-62"/>
+    <character id="43" name="Shmi Skywalker" height="1.63" gender="female" homeworld="tatooine" born="-72" died="-22" diedLocation="tatooine" hairColor="brown" eyeColor="brown" skinColor="light"/>
+    <character id="51" name="Mace Windu" height="1.92" mass="84" gender="male" homeworld="haruun kal" born="-72" died="-19" diedLocation="coruscant" hairColor="black; later none" eyeColor="brown" skinColor="dark"/>
+    <character id="60" name="Gregar Typho" height="1.85" mass="85" gender="male" homeworld="naboo" hairColor="black" eyeColor="brown" skinColor="dark"/>
+    <character id="61" name="Cordé" height="1.57" gender="female" homeworld="naboo" died="-22" diedLocation="coruscant" hairColor="brown" eyeColor="brown" skinColor="light"/>
+    <character id="62" name="Cliegg Lars" height="1.83" gender="male" homeworld="tatooine" died="-22" hairColor="light brown" eyeColor="blue" skinColor="fair" born="-82"/>
+    <character id="66" name="Dormé" height="1.65" gender="female" homeworld="naboo" hairColor="brown" eyeColor="brown" skinColor="light"/>
+    <character id="67" name="Dooku" height="1.93" mass="86" gender="male" homeworld="serenno" born="-102" died="-19" diedLocation="aboard invisible hand over coruscant" hairColor="white" eyeColor="brown, yellowred (vision dark side)" skinColor="light"/>
+    <character id="68" name="Bail Prestor Organa" height="1.91" gender="male" homeworld="alderaan" born="-67" died="0" diedLocation="alderaan" hairColor="black" eyeColor="brown" skinColor="tan"/>
+    <character id="69" name="Jango Fett" height="1.83" mass="79" gender="male" homeworld="concord dawn" died="-22" diedLocation="geonosis" hairColor="black" eyeColor="brown" skinColor="tan" born="-66"/>
+    <character id="74" name="Jocasta Nu" height="1.69" gender="female" homeworld="coruscant" died="-19" diedLocation="coruscant" hairColor="white" eyeColor="blue" skinColor="light"/>
+    <character id="81" name="Raymus Antilles" height="1.88" mass="79" gender="male" homeworld="alderaan" died="0" diedLocation="tantive iv, tatoo system" hairColor="brown" eyeColor="brown" skinColor="fair"/>
+    <character id="84" name="Finn" height="1.78" mass="73" gender="male" born="11" hairColor="black" eyeColor="brown" skinColor="dark"/>
+    <character id="85" name="Rey" height="1.7" mass="54" gender="female" homeworld="jakku" born="15" hairColor="brown" eyeColor="hazel" skinColor="light"/>
+    <character id="86" name="Poe Dameron" height="1.72" mass="80" gender="male" homeworld="yavin 4" born="2" hairColor="brown" eyeColor="brown" skinColor="tan"/>
+    <character id="88" name="Captain Phasma" height="2" mass="76" gender="female" homeworld="parnassos" hairColor="gold" eyeColor="blue" skinColor="pale"/>
+  </specie>
+  <specie name="droids">
+    <character id="2" name="C-3PO" height="1.71" mass="75" gender="male" homeworld="tatooine" skinColor="gold" eyeColor="yellow" born="-112"/>
+    <character id="3" name="R2-D2" height="1.09" mass="32" gender="male" homeworld="naboo" skinColor="white, blue" eyeColor="red" born="-33"/>
+    <character id="8" name="R5-D4" height="0.97" mass="32" gender="male" homeworld="tatooine" skinColor="white, red" eyeColor="red"/>
+    <character id="23" name="IG-88" height="1.96" mass="140" gender="male" skinColor="metal" eyeColor="red" born="-15"/>
+    <character id="75" name="R4-P17" height="1.09" gender="female" skinColor="silver, red" eyeColor="red, blue"/>
+    <character id="87" name="BB8" height="0.67" mass="18" gender="male" eyeColor="black"/>
+  </specie>
+  <specie name="others">
+    <character id="13" name="Chewbacca" height="2.28" mass="112" gender="male" homeworld="kashyyyk" born="-200" bornLocation="kashyyyk" hairColor="brown" eyeColor="blue"/>
+    <character id="15" name="Greedo" height="1.74" mass="74" gender="male" homeworld="Tatooine" died="0" diedLocation="tatooine" eyeColor="purple" skinColor="green" born="-44"/>
+    <character id="16" name="Jabba Desilijic Tiure" height="3.9" mass="1358" gender="male" homeworld="tatooine" born="-600" died="4" diedLocation="tatooine" eyeColor="orange" skinColor="green and tan"/>
+    <character id="20" name="Yoda" height="0.66" mass="13" gender="male" born="-896" died="4" diedLocation="dagobah" hairColor="white" eyeColor="green-gold" skinColor="green"/>
+    <character id="24" name="Bossk" height="1.9" mass="113" gender="male" homeworld="trandosha" eyeColor="orange" skinColor="green" born="-53"/>
+    <character id="27" name="Ackbar" height="1.8" mass="83" gender="male" homeworld="mon cala" born="-50" died="34" diedLocation="raddus, oetchi system" eyeColor="orange" skinColor="brown mottle"/>
+    <character id="30" name="Wicket Systri Warrick" height="0.8" mass="20" gender="male" homeworld="endor" hairColor="brown" eyeColor="brownish black" skinColor="brown" born="-8"/>
+    <character id="31" name="Nien Nunb" height="1.6" mass="68" gender="male" homeworld="sullust" eyeColor="black" skinColor="light"/>
+    <character id="33" name="Nute Gunray" height="1.91" mass="90" gender="male" homeworld="neimoidia" died="-19" diedLocation="mustafar" eyeColor="red" skinColor="green"/>
+    <character id="36" name="Jar Jar Binks" height="1.96" mass="66" gender="male" homeworld="naboo" eyeColor="yellow" skinColor="orange and white" born="-52"/>
+    <character id="37" name="Roos Tarpals" height="2.24" mass="82" gender="male" homeworld="naboo" died="-20" diedLocation="naboo" eyeColor="orange" skinColor="purple and white"/>
+    <character id="38" name="Rugor Nass" height="2.06" gender="male" homeworld="naboo" eyeColor="yellow" skinColor="green"/>
+    <character id="40" name="Watto" height="1.37" gender="male" homeworld="toydaria" eyeColor="orange" skinColor="blue" hairColor="black"/>
+    <character id="41" name="Sebulba" height="1.12" mass="40" gender="male" homeworld="malastare" eyeColor="yellow" skinColor="purple and beige"/>
+    <character id="44" name="Darth Maul" height="1.75" mass="80" gender="male" homeworld="dathomir" died="-2" diedLocation="tatooine" eyeColor="yellow and red" skinColor="red (black tattoos)" born="-54"/>
+    <character id="45" name="Bib Fortuna" height="2" gender="male" homeworld="ryloth" died="4" diedLocation="tatooine" eyeColor="pink" skinColor="light"/>
+    <character id="46" name="Ayla Secura" height="1.7" mass="55" gender="female" homeworld="ryloth" born="-48" died="-19" diedLocation="felucia" eyeColor="hazel" skinColor="blue"/>
+    <character id="47" name="Ratts Tyerell" height="0.79" mass="15" gender="male" homeworld="aleen" died="-32" diedLocation="tatooine" eyeColor="black" skinColor="blue, white"/>
+    <character id="48" name="Dud Bolt" height="0.94" mass="45" gender="male" homeworld="vulpter" eyeColor="yellow" skinColor="blue-gray, yellow, white"/>
+    <character id="49" name="Gasgano" height="1.22" gender="male" homeworld="troiken" eyeColor="black" skinColor="white, brown, purple"/>
+    <character id="50" name="Ben Quadinaros" height="1.63" mass="65" gender="male" homeworld="tund" eyeColor="orange" skinColor="yellow"/>
+    <character id="52" name="Ki-Adi-Mundi" height="1.98" mass="82" gender="male" homeworld="cerea" died="-19" diedLocation="mygeeto" hairColor="white" eyeColor="yellow" skinColor="light" born="-92"/>
+    <character id="53" name="Kit Fisto" height="1.96" mass="87" gender="male" homeworld="glee anselm" died="-19" diedLocation="coruscant" eyeColor="black" skinColor="green"/>
+    <character id="54" name="Eeth Koth" height="1.71" gender="male" homeworld="nar shaddaa" hairColor="black" eyeColor="brown" skinColor="tan"/>
+    <character id="55" name="Adi Gallia" height="1.84" mass="50" gender="female" homeworld="coruscant" died="-20" diedLocation="florrum" eyeColor="blue" skinColor="dark (with blue patches)"/>
+    <character id="56" name="Saesee Tiin" height="1.93" gender="male" homeworld="iktotch" died="-19" diedLocation="coruscant" eyeColor="yellow" skinColor="orange and pink"/>
+    <character id="57" name="Yarael Poof" height="2.64" gender="male" homeworld="quermia" died="-27" eyeColor="red" skinColor="pasty white"/>
+    <character id="58" name="Plo Koon" height="1.88" mass="80" gender="male" homeworld="dorin" died="-19" diedLocation="cato neimoidia" skinColor="orange" eyeColor="black" born="-22"/>
+    <character id="59" name="Mas Amedda" height="1.96" gender="male" homeworld="champala" eyeColor="blue" skinColor="blue"/>
+    <character id="63" name="Poggle the Lesser" height="1.75" mass="80" gender="male" homeworld="geonosis" died="-19" diedLocation="mustafar" eyeColor="yellow" skinColor="green"/>
+    <character id="64" name="Luminara Unduli" height="1.76" mass="56" gender="female" homeworld="mirial" died="66" hairColor="black" eyeColor="royal-blue" skinColor="green (with black tattoos)" born="-58"/>
+    <character id="65" name="Barriss Offee" height="1.66" mass="50" gender="female" homeworld="mirial" hairColor="black" eyeColor="blue" skinColor="yellow (with black tattoos)" born="-40"/>
+    <character id="70" name="Zam Wesell" height="1.68" mass="55" gender="female" homeworld="zolan" died="-22" diedLocation="coruscant" skinColor="green" hairColor="blond" eyeColor="yellow"/>
+    <character id="71" name="Dexter Jettster" height="1.88" mass="102" gender="male" homeworld="ojom" hairColor="brown-black" eyeColor="yellow" skinColor="tan-brown"/>
+    <character id="72" name="Lama Su" height="2.29" mass="88" gender="male" homeworld="kamino" eyeColor="black with white pupils" skinColor="white"/>
+    <character id="73" name="Taun We" height="2.13" gender="female" homeworld="kamino" eyeColor="black with white pupils" skinColor="white"/>
+    <character id="76" name="Wat Tambor" height="1.98" mass="48" gender="male" homeworld="skako" died="-19" diedLocation="mustafar" eyeColor="black" skinColor="green"/>
+    <character id="77" name="San Hill" height="1.91" gender="male" homeworld="scipio" died="-19" diedLocation="mustafar" eyeColor="yellow" skinColor="pale"/>
+    <character id="78" name="Shaak Ti" height="1.87" mass="57" gender="female" homeworld="shili" born="-59" died="-19" diedLocation="coruscant" eyeColor="black" skinColor="red (with white markings and gray stripes)"/>
+    <character id="79" name="Grievous" height="2.16" mass="159" gender="male" homeworld="kalee" died="-19" diedLocation="utapau" eyeColor="gold" skinColor="red"/>
+    <character id="80" name="Tarfful" height="2.32" mass="136" gender="male" homeworld="kashyyyk" hairColor="brown" eyeColor="blue" skinColor="brown"/>
+    <character id="82" name="Sly Moore" height="1.78" mass="48" gender="female" homeworld="umbara" eyeColor="white" skinColor="pale"/>
+    <character id="83" name="Tion Medon" height="2.06" mass="80" gender="male" homeworld="utapau" eyeColor="black" skinColor="gray (with red markings)"/>
+  </specie>
+</c3starwars>
