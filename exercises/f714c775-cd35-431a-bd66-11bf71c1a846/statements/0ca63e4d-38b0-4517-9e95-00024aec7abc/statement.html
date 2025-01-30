@@ -1,0 +1,9 @@
+<h2>Filtrando por un único campo</h2>
+<p dir="auto">Para filtrar datos, debemos agregar un parámetro como primer argumento del método <code>count()</code>. Los parámetros son objetos, es decir, son parejas <code>clave:valor</code>.</p>
+<h3>Ejemplo</h3>
+</p>Para contar los documentos almacenados en la colección de <code>cards</code> que cumplen que tienen un valor de <code>255</code> en el campo <code>hp</code>,
+ podríamos ejecutar la siguiente orden:</p>
+<pre><code>db.cards.countDocuments({ "hp": 255} )</code></pre>
+<p dir="auto">En la consulta anterior, <code>hp</code> es la <strong>clave</strong> y <code>255</code> es el <strong>valor</strong>.
+<h3>Ejercicio</h3>
+<p>Cuenta los documentos existentes en la colección <strong><code>movies_2015</code></strong> que tienen un <code>rated</code> de <code>"PG-13"</code></p>
