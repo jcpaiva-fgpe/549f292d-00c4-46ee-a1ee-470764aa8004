@@ -1,0 +1,17 @@
+package lecturateclado;
+
+import java.util.Scanner;
+
+public class LecturaTeclado {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float miCalificacion;
+        
+        System.out.println("Dime la nota que me corresponde:");
+        miCalificacion = sc.nextFloat();
+
+        System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);
+    }
+
+}
