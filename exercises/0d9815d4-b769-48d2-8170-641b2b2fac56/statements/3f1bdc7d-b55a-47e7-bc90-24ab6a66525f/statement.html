@@ -9,3 +9,21 @@
 <p>Posteriormente, añadiremos a la tabla <code>farmacias</code> un atributo <code>farmaceutico_id</code>, 
 así como una restricción de <strong>clave ajena</strong> que relacionen el campo <code>farmaceutico_id</code>
  con la tabla <code>farmaceuticos</code>, de tal forma que si un <code>farmaceutico</code> se elimina, se deben eliminar todas las <code>farmacias</code> relacionadas con el anterior.</p>
+
+<h3><u>Solución del ejercicio (solo para pruebas)</u></h3>
+<h4><strong>lenguaje:</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>PostgreSQL</code></pre>
+</blockquote>
+<h4><strong>solución</strong></h4>
+<blockquote style="margin:20px">
+    <pre><code>CREATE TABLE farmaceuticos (
+    id SERIAL PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL,
+    direccion VARCHAR(200) NOT NULL
+);
+
+ALTER TABLE farmacias 
+add farmaceutico_id INTEGER REFERENCES farmaceuticos (id) ON DELETE cascade;
+</code></pre>
+</blockquote>
