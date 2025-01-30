@@ -1,0 +1,1 @@
+count(/c3starwars/specie[@name="others"]/character[@eyeColor="blue" and @height<"2"])
