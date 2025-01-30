@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><meta http-equiv='X-UA-Compatible' content='IE=edge'><title>Page Title</title><meta name='viewport' content='width=device-width, initial-scale=1'><link rel='stylesheet' type='text/css' media='screen' href='main.css'><script src='main.js'></script></head><body><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Existem várias maneiras de ler as informações do usuário. </font><font style="vertical-align: inherit;">De </font></font><a href="https://translate.google.com/website?sl=es&amp;tl=pt&amp;hl=es&amp;client=webapp&amp;u=https://javadesdecero.es/io/maneras-lectura-datos-java/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">todos eles</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> , usaremos a&nbsp; </font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">classe </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Java</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> &nbsp;para ler do teclado.&nbsp;</font></font></p> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Essa classe está no </font></font><code>java.util.Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">pacote de bibliotecas Java, que terei que importar para o meu programa para poder usá-la. </font><font style="vertical-align: inherit;">Para isso, antes da declaração da classe, colocaremos o seguinte código:</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>import java.util.Scanner;</code></p> 
+        </blockquote> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para poder ler do teclado usando a classe </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, temos que criar um objeto do tipo </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">vinculado à entrada padrão do sistema. </font><font style="vertical-align: inherit;">A próxima linha declara e inicializa ou instancia ( </font></font><code>new</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">) aquele objeto </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">associado à entrada padrão ( </font></font><code>System.in</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">) do sistema.</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>Scanner sc = new Scanner(System.in);</code></p> 
+         <p><small><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nota:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Esta afirmação será repetida inúmeras vezes em nosso código e, à força de copiá-la e colá-la, vamos decorá-la, embora deixemos sua compreensão para mais tarde.</font></font></small></p> 
+        </blockquote> 
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dependendo do tipo de dados que vamos ler, usaremos um dos métodos que a classe Scanner nos oferece, através do objeto </font></font><code>sc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">que acabamos de instanciar:</font></font></p> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para ler uma string de caracteres do teclado, usaremos o método&nbsp; </font></font><code><strong>nextLine()</strong></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;da classe </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Este método retorna uma string que deve ser armazenada em uma variável do tipo String:</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>String cadena = sc.nextLine();</code></p> 
+        </blockquote> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Para ler um valor inteiro do teclado, usaremos o método&nbsp; </font></font><code><strong>nextInt()</strong></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;da classe </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Este método retorna um inteiro, que deve ser armazenado em uma variável do tipo int:</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>&nbsp;int entero = sc.nextInt();</code></p> 
+        </blockquote> 
+        <ul> 
+         <li>Para leer un valor real de teclado, usaremos el método&nbsp;<code><strong>nextFloat()</strong></code>&nbsp;de la clase <code>Scanner</code>. Este método devuelve un float, que debe ser almacenado en una variable de tipo float:</li> 
+        </ul> 
+        <blockquote> 
+         <p><code>&nbsp;float real = sc.nextFloat();</code></p> 
+        </blockquote> 
+        <h3>Ejemplo:</h3> 
+        <p>En el&nbsp;ejemplo que hemos realizado anteriormente, en el que se imprimía en pantalla <em>"Mi nota en PROGRAMACION es: 10"</em>, el valor de esa nota se incluía dentro del código. Si quisiéramos que fuera el usuario que está ejecutando la aplicación el que introdujera el valor que le corresponde a la nota, lo haríamos con el siguiente código:</p> 
+        <blockquote> 
+         <p><code>package lecturateclado;</code></p> 
+         <p><code>import java.util.Scanner;</code></p> 
+         <p><code>public class LecturaTeclado {</code></p> 
+         <p><code>&nbsp; &nbsp; public static void main(String[] args) {<br> &nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);<br> &nbsp; &nbsp; &nbsp; &nbsp; int miCalificacion;<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Dime la nota que me corresponde:");<br> &nbsp; &nbsp; &nbsp; &nbsp; miCalificacion = sc.nextInt();</code></p> 
+         <p><code>&nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);<br> &nbsp; &nbsp; }</code></p> 
+         <p><code>}</code></p> 
+        </blockquote> 
+        <h3>&nbsp;Ejercicio:</h3> 
+        <p>Prueba a ejecutar el código anterior, permitiendo que, en lugar de una nota con valor entero, se pueda introducir una calificación con decimales.</p> 
+        <p><small><em><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Nota:</font></font></strong></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Lembre-se de que os decimais inseridos pelo usuário devem ser separados pelo ponto decimal e não pelo .</font></font></small></p></body></html>
