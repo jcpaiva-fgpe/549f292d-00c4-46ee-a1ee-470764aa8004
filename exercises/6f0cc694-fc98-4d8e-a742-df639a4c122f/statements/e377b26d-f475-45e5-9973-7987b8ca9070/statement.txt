@@ -1,0 +1,75 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><meta http-equiv='X-UA-Compatible' content='IE=edge'><title>Page Title</title><meta name='viewport' content='width=device-width, initial-scale=1'><link rel='stylesheet' type='text/css' media='screen' href='main.css'><script src='main.js'></script></head><body><p>Existen varias formas de leer información proveniente del usuario. De entre <a href="https://javadesdecero.es/io/maneras-lectura-datos-java/" target="_blank">todas ellas</a>, nosotros usaremos la&nbsp;<strong>clase <code>Scanner</code> de Java</strong>&nbsp;para leer de teclado.&nbsp;</p>
+
+<ul>
+	<li>Dicha clase se encuentra en el paquete <code>java.util.Scanner</code> de las librerías de Java, el cual tendré que importar a mi programa para poder utilizarlo. Para ello, antes de la declaración de la clase, pondremos el código siguiente:</li>
+</ul>
+
+<blockquote>
+<p><code>import java.util.Scanner;</code></p>
+</blockquote>
+
+<ul>
+	<li>Para poder leer del teclado usando la clase <code>Scanner</code>, tenemos que crear un objeto de tipo <code>Scanner</code> vinculado a la entrada estándar del sistema. La siguiente línea declara, e inicializa o instancia (<code>new</code>) ese objeto <code>Scanner</code> asociado a la entrada estándar(<code>System.in</code>) del sistema.</li>
+</ul>
+
+<blockquote>
+<p><code>Scanner sc = new Scanner(System.in);</code></p>
+
+<p><small><strong>Nota:</strong> Esta sentencia se va a repetir en innumerables ocasiones en nuestro código y, a fuerza de copiarla y pegarla, la aprenderemos de memoria, aunque su comprensión la dejaremos para más adelante.</small></p>
+</blockquote>
+
+<p>En función del tipo de dato que vayamos a leer, utilizaremos alguno de los métodos que nos brinda la clase Scanner, a través del objeto <code>sc</code> que acabamos de instanciar:</p>
+
+<ul>
+	<li>Para leer una cadena de caracteres de teclado usaremos el método&nbsp;<code><strong>nextLine()</strong></code>&nbsp;de la clase <code>Scanner</code>. Este método devuelve una cadena que debe ser almacenado en una variable de tipo String:</li>
+</ul>
+
+<blockquote>
+<p><code>String cadena = sc.nextLine();</code></p>
+</blockquote>
+
+<ul>
+	<li>Para leer un valor entero de teclado, usaremos el método&nbsp;<code><strong>nextInt()</strong></code>&nbsp;de la clase <code>Scanner</code>. Este método devuelve un entero, que debe ser almacenado en una variable de tipo int:</li>
+</ul>
+
+<blockquote>
+<p><code>&nbsp;int entero = sc.nextInt();</code></p>
+</blockquote>
+
+<ul>
+	<li>Para leer un valor real de teclado, usaremos el método&nbsp;<code><strong>nextFloat()</strong></code>&nbsp;de la clase <code>Scanner</code>. Este método devuelve un float, que debe ser almacenado en una variable de tipo float:</li>
+</ul>
+
+<blockquote>
+<p><code>&nbsp;float real = sc.nextFloat();</code></p>
+</blockquote>
+
+<h3>Ejemplo:</h3>
+
+<p>En el&nbsp;ejemplo que hemos realizado anteriormente, en el que se imprimía en pantalla <em>"Mi nota en PROGRAMACION es: 10"</em>, el valor de esa nota se incluía dentro del código. Si quisiéramos que fuera el usuario que está ejecutando la aplicación el que introdujera el valor que le corresponde a la nota, lo haríamos con el siguiente código:</p>
+
+<blockquote>
+<p><code>package lecturateclado;</code></p>
+
+<p><code>import java.util.Scanner;</code></p>
+
+<p><code>public class LecturaTeclado {</code></p>
+
+<p><code>&nbsp; &nbsp; public static void main(String[] args) {<br>
+&nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);<br>
+&nbsp; &nbsp; &nbsp; &nbsp; int miCalificacion;<br>
+&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br>
+&nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Dime la nota que me corresponde:");<br>
+&nbsp; &nbsp; &nbsp; &nbsp; miCalificacion = sc.nextInt();</code></p>
+
+<p><code>&nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);<br>
+&nbsp; &nbsp; }</code></p>
+
+<p><code>}</code></p>
+</blockquote>
+
+<h3>&nbsp;Ejercicio:</h3>
+
+<p>Prueba a ejecutar el código anterior, permitiendo que, en lugar de una nota con valor entero, se pueda introducir una calificación con decimales.</p>
+
+<p><small><em><strong>Nota:</strong></em> Ten en cuenta que los decimales que introduce el usuario deben ir separados por la coma decimal y no por el .</small></p></body></html>
