@@ -1,1 +1,0 @@
-¿Qué identificador (id) tiene el droide con nombre (name) “C-3PO”?
