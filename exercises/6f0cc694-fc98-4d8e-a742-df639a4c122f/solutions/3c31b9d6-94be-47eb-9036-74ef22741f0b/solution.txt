@@ -1,5 +1,3 @@
-package lecturateclado;
-
 import java.util.Scanner;
 
 public class LecturaTeclado {
