@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><meta http-equiv='X-UA-Compatible' content='IE=edge'><title>Page Title</title><meta name='viewport' content='width=device-width, initial-scale=1'><link rel='stylesheet' type='text/css' media='screen' href='main.css'><script src='main.js'></script></head><body><p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Kullanıcıdan bilgi okumanın birkaç yolu vardır. </font><font style="vertical-align: inherit;">Hepsinden </font><strong><font style="vertical-align: inherit;">klavyeden</font></strong><font style="vertical-align: inherit;"> &nbsp;okumak&nbsp; </font><font style="vertical-align: inherit;">için&nbsp; </font><strong><font style="vertical-align: inherit;">Java </font></strong></font><a href="https://translate.google.com/website?sl=es&amp;tl=tr&amp;hl=es&amp;client=webapp&amp;u=https://javadesdecero.es/io/maneras-lectura-datos-java/" target="_blank"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">sınıfını kullanacağız.</font></font></a><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"></font><code>Scanner</code><font style="vertical-align: inherit;"></font></strong><font style="vertical-align: inherit;"></font></p> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bu sınıf, </font></font><code>java.util.Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">kullanmak için programıma aktarmam gereken Java kitaplıkları paketinde. </font><font style="vertical-align: inherit;">Bunu yapmak için sınıf bildiriminden önce aşağıdaki kodu koyacağız:</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>import java.util.Scanner;</code></p> 
+        </blockquote> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Sınıfı kullanarak klavyeden okuyabilmek için </font><font style="vertical-align: inherit;">, sistemin standart girişine bağlı </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bir tür nesnesi oluşturmamız gerekir . </font><font style="vertical-align: inherit;">Sonraki satır, sistemin standart girişi ( ) ile ilişkili </font><font style="vertical-align: inherit;">nesneyi </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">bildirir ve başlatır veya başlatır ( ) </font><font style="vertical-align: inherit;">.</font></font><code>new</code><font style="vertical-align: inherit;"></font><code>Scanner</code><font style="vertical-align: inherit;"></font><code>System.in</code><font style="vertical-align: inherit;"></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>Scanner sc = new Scanner(System.in);</code></p> 
+         <p><small><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Not:</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Bu ifade kodumuzda sayısız kez tekrarlanacak ve onu kopyalayıp yapıştırmak suretiyle ezbere öğreneceğiz, ancak anlaşılmasını sonraya bırakacağız.</font></font></small></p> 
+        </blockquote> 
+        <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Okuyacağımız verinin türüne bağlı olarak, </font></font><code>sc</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">az önce somutlaştırdığımız nesne aracılığıyla Scanner sınıfının bize sunduğu yöntemlerden birini kullanacağız:</font></font></p> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Bir dizi klavye karakterini okumak&nbsp; </font></font><code><strong>nextLine()</strong></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;için sınıfın yöntemini kullanacağız </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Bu yöntem, String türünde bir değişkende saklanması gereken bir dize döndürür:</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>String cadena = sc.nextLine();</code></p> 
+        </blockquote> 
+        <ul> 
+         <li><font style="vertical-align: inherit;"></font><code><strong>nextInt()</strong></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">&nbsp;Klavyeden bir tamsayı değeri okumak için sınıfın </font><font style="vertical-align: inherit;">yöntemini kullanacağız&nbsp; </font></font><code>Scanner</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Bu yöntem, int türünde bir değişkende saklanması gereken bir tamsayı döndürür:</font></font></li> 
+        </ul> 
+        <blockquote> 
+         <p><code>&nbsp;int entero = sc.nextInt();</code></p> 
+        </blockquote> 
+        <ul> 
+         <li>Para leer un valor real de teclado, usaremos el método&nbsp;<code><strong>nextFloat()</strong></code>&nbsp;de la clase <code>Scanner</code>. Este método devuelve un float, que debe ser almacenado en una variable de tipo float:</li> 
+        </ul> 
+        <blockquote> 
+         <p><code>&nbsp;float real = sc.nextFloat();</code></p> 
+        </blockquote> 
+        <h3>Ejemplo:</h3> 
+        <p>En el&nbsp;ejemplo que hemos realizado anteriormente, en el que se imprimía en pantalla <em>"Mi nota en PROGRAMACION es: 10"</em>, el valor de esa nota se incluía dentro del código. Si quisiéramos que fuera el usuario que está ejecutando la aplicación el que introdujera el valor que le corresponde a la nota, lo haríamos con el siguiente código:</p> 
+        <blockquote> 
+         <p><code>package lecturateclado;</code></p> 
+         <p><code>import java.util.Scanner;</code></p> 
+         <p><code>public class LecturaTeclado {</code></p> 
+         <p><code>&nbsp; &nbsp; public static void main(String[] args) {<br> &nbsp; &nbsp; &nbsp; &nbsp; Scanner sc = new Scanner(System.in);<br> &nbsp; &nbsp; &nbsp; &nbsp; int miCalificacion;<br> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br> &nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Dime la nota que me corresponde:");<br> &nbsp; &nbsp; &nbsp; &nbsp; miCalificacion = sc.nextInt();</code></p> 
+         <p><code>&nbsp; &nbsp; &nbsp; &nbsp; System.out.println("Mi nota en PROGRAMACION es: " + miCalificacion);<br> &nbsp; &nbsp; }</code></p> 
+         <p><code>}</code></p> 
+        </blockquote> 
+        <h3>&nbsp;Ejercicio:</h3> 
+        <p>Prueba a ejecutar el código anterior, permitiendo que, en lugar de una nota con valor entero, se pueda introducir una calificación con decimales.</p> 
+        <p><small><em><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Not:</font></font></strong></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> Kullanıcı tarafından girilen ondalık sayıların, .</font></font></small></p></body></html>
